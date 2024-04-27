@@ -1,0 +1,7 @@
+@import '../componets/reset.scss';
+@import '../componets/_variables.scss';
+@import '../componets/_header.scss';
+.cont{
+    max-width: $cont;
+    margin: 0 auto;
+}

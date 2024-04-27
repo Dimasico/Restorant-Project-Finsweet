@@ -1,0 +1,18 @@
+@import '../componets/variables.scss';
+header{
+    background-color: $black-backround-color;
+    max-width: 100%;
+    color: $text-color;
+}
+.navigation{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    &__list{
+        color: $text-color;
+    }
+    &__link{
+        color: $text-color;
+        text-decoration: none;
+    }
+}
